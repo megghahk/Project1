@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple todo application</title>
+</head>
+<body>
+    <div id="container">
+        <div class="controls">
+            <h1>My Awesome todo</h1>
+            <input type="text" id="one" />
+            <button type="button" id="add">Add todo</button>
+            <button type="button" id="remove">Remove done todo</button>
+            <button type="button" id="clear">Clear All todo</button>
+
+
+        </div>
+        <ul id="list">
+            <li class="mycheck">
+                <input type="checkbox" id="check" />
+                <lable>Wake Up At 5</lable>
+            </li>
+
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked />
+                <label>Drink 2 glass of Water</label>
+            </li>
+
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked />
+                <label>Drink 2 glass of Water</label>
+            </li>
+
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked />
+                <label>Drink 2 glass of Water</label>
+            </li>
+        </ul>
+        
+    </div>
+
+
+    <script defer src="todo.js"></script>
+</body>
+</html>
